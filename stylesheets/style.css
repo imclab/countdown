@@ -153,7 +153,8 @@ body {
     margin: auto;
     padding: 60px 0;
     overflow: hidden;
-    background-color: #fff; }
+    background-color: #fff;
+    border-radius: 3px; }
     #container .content:hover .plane {
       -webkit-animation: take-off 2.5s infinite linear;
       -moz-animation: take-off 2.5s infinite linear;

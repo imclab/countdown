@@ -1,0 +1,8 @@
+permalink:   pretty
+markdown:    rdiscount
+rdiscount:
+  extensions: [smart]
+title: 嘖嘖 - 二號機預備中
+description: 台灣的創意群眾集資網站，一起讓美好的事物發生。
+url: http://zeczec.com
+auto: true

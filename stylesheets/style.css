@@ -6,15 +6,24 @@ body, input, textarea, select, div, span {
   line-height: 1.5em; }
   body, body *, input, input *, textarea, textarea *, select, select *, div, div *, span, span * {
     -webkit-font-smoothing: antialiased; }
+  body .muted, input .muted, textarea .muted, select .muted, div .muted, span .muted {
+    color: #808080; }
+    body .muted a, input .muted a, textarea .muted a, select .muted a, div .muted a, span .muted a {
+      color: #556677; }
+  body .ar, input .ar, textarea .ar, select .ar, div .ar, span .ar {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto 10px;
+    max-width: 500px; }
 
 a {
-  color: #e18100; }
+  color: #e18100;
+  text-decoration: none; }
   a:hover {
     color: #cd6800; }
 
 body {
   background-color: #f5f5f5;
-  overflow: hidden;
   text-align: center;
   margin: 0;
   padding: 10px; }
@@ -129,8 +138,11 @@ body {
   max-width: 500px;
   border-radius: 4px;
   padding: 10px;
-  margin: 60px auto 15px;
-  background-image: url(../images/construction-pattern.png); }
+  margin: 30px auto 15px;
+  background-image: url(../images/construction-pattern.png);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
   #container .content {
     text-align: center;
     width: 100%;
@@ -139,6 +151,10 @@ body {
     padding: 60px 0;
     overflow: hidden;
     background-color: #fff; }
+    #container .content:hover .plane {
+      -webkit-animation: take-off 2.5s infinite linear;
+      -moz-animation: take-off 2.5s infinite linear;
+      animation: take-off 2.5s infinite linear; }
     #container .content .plane {
       font-size: 50px;
       color: #d0d0d0;
@@ -146,10 +162,6 @@ body {
       padding-left: 50%;
       margin-left: -25px;
       text-align: left; }
-      #container .content .plane:hover {
-        -webkit-animation: take-off 2s infinite linear;
-        -moz-animation: take-off 2s infinite linear;
-        animation: take-off 2s infinite linear; }
     #container .content #logo {
       margin-bottom: 30px; }
     #container .content #countdown {

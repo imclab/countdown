@@ -10,6 +10,9 @@ body, input, textarea, select, div, span {
     color: #808080; }
     body .muted a, input .muted a, textarea .muted a, select .muted a, div .muted a, span .muted a {
       color: #556677; }
+  body .fb-like, input .fb-like, textarea .fb-like, select .fb-like, div .fb-like, span .fb-like {
+    display: block !important;
+    margin-bottom: 10px; }
   body .ar, input .ar, textarea .ar, select .ar, div .ar, span .ar {
     text-align: left;
     width: 100%;

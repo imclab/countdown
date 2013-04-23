@@ -1,5 +1,7 @@
 jQuery ->
 
+  # Extract this out for opensourcing
+
   setTime = () ->
     time = new Date()
     time.setUTCDate(23)

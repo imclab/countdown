@@ -1,8 +1,8 @@
 @charset "UTF-8";
 body, input, textarea, select, div, span {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Hiragino Kaku Gothic Pro", san-serif;
+  font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Hiragino Kaku Gothic Pro", san-serif;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5em; }
   body, body *, input, input *, textarea, textarea *, select, select *, div, div *, span, span * {
     -webkit-font-smoothing: antialiased; }
@@ -156,9 +156,9 @@ body {
     background-color: #fff;
     border-radius: 3px; }
     #container .content:hover .plane {
-      -webkit-animation: take-off 2.5s infinite linear;
-      -moz-animation: take-off 2.5s infinite linear;
-      animation: take-off 2.5s infinite linear; }
+      -webkit-animation: take-off 3.5s infinite linear;
+      -moz-animation: take-off 3.5s infinite linear;
+      animation: take-off 3.5s infinite linear; }
     #container .content .plane {
       font-size: 50px;
       color: #d0d0d0;
@@ -172,6 +172,6 @@ body {
       margin: 30px auto 0; }
       #container .content #countdown, #container .content #countdown * {
         font-size: 18px;
-        color: #e18100; }
+        color: #797979; }
       #container .content #countdown.clear * {
         color: #f9f9f9 !important; }

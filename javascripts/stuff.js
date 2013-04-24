@@ -16,7 +16,7 @@ jQuery(function() {
     var aMinute, anHour, diff_in_seconds, hours, minutes, seconds;
     aMinute = 60;
     anHour = 60 * aMinute;
-    diff_in_seconds = (time - now) / 1000;
+    diff_in_seconds = (now - time) / 1000;
     hours = Math.floor(diff_in_seconds / anHour);
     minutes = Math.floor((diff_in_seconds - (hours * anHour)) / aMinute);
     seconds = Math.floor(diff_in_seconds - (hours * anHour) - (minutes * aMinute));

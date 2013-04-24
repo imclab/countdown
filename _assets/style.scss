@@ -3,8 +3,8 @@ $zec_normal: shade(#fa9000, 10%);
 $zec_darker: shade(#fa8000, 18%);
 
 body, input, textarea, select, div, span { 
-  font-family: $helvetica, "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Hiragino Kaku Gothic Pro", san-serif; font-weight: bold;
-  font-size: 15px; line-height: 1.5em; 
+  font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Hiragino Kaku Gothic Pro", san-serif; font-weight: bold;
+  font-size: 14px; line-height: 1.5em; 
   &, * { -webkit-font-smoothing: antialiased; }
   .muted { color: #808080; a { color: #556677 }}
   .fb-like { display: block !important; margin-bottom: 10px; }
@@ -53,7 +53,7 @@ body {
     background-color: #fff; 
     border-radius: 3px;
     &:hover .plane {
-      @include animation(take-off 2.5s infinite linear);
+      @include animation(take-off 3.5s infinite linear);
     }
     .plane { 
       font-size: 50px; color: #d0d0d0; text-shadow: 0 1px 0 #fff;
@@ -63,7 +63,7 @@ body {
     #logo { margin-bottom: 30px; }
     #countdown { 
       margin: 30px auto 0; 
-      &, * { font-size: 18px; color: $zec_normal;  } 
+      &, * { font-size: 18px; color: #797979;  } 
       &.clear * { color: #f9f9f9 !important; }
     }
   }
